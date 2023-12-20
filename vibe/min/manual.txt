@@ -1,0 +1,48 @@
+Vibe Manual
+------------
+Table of Contents:
+  1. Introduction
+  2. Vibe vs. Vibe Classic
+  3. Installation and Setup
+  4. Usage & Commands
+------------
+1. Introduction
+Thank you for downloading Vibe for TI N-Spire CX!
+Vibe (also known as Vibe Check) is a background program that adds some flair to your calculator, being accessible from the scratchpad and every calculator document. There are many commands you can use, most being just for fun with others being used for utility. Examples include commands to vibe check someone, roll a die, or play rock paper scissors. Currently, you are viewing a minified version of the Vibe webpage. For a more stylized version, go to https://vibe.coltrane.me on an internet connected device.
+------------
+2. Vibe vs. Vibe Classic
+There are two main versions of Vibe: Vibe and Vibe Classic. Vibe is a frequently updated multitool and Vibe Classic is a consistent smaller program. Vibe Classic consists of solely the base program, featuring only 3 primary commands. This is the original program and is only 5 kilobytes large. Vibe features many more commands and functions as a bit more of a multitool than a single joke. Vibe 1.6 is 18 kilobytes large.
+------------
+3. Installation and Setup
+The first thing you need to do is download vibe.tns. If you have not done that already, go to https://www.coltrane.me/vibe/min/downloads.min.html. The next step is to plug in your TI-Nspire CX into your computer through Mini-USB. Now, you must open the TI-Nspire CX Student Software. If you do not own this software, you can install a free version of it online. Once you open the Student Software, locate the Documents Toolbox on the left side of the screen and click on the rightmost icon within that menu. In the lower "Connected Handhelds" section, click and open your calculator. Navigate to the folder "MyLib" and then shift your focus to the upper section titled "Computer." Locate vibe.tns (it should be where you downloaded it) and drag and drop the file into the "MyLib" folder. If a previous version of Vibe is installed, replace that file. Vibe is now installed on your calculator. Vibe will most likely work now, but to insure that it is functional, On the calculator, navigate to "My Documents" and refresh libraries by pressing "menu" and then pressing "B." Assuming you correctly followed these steps, Vibe is now fully installed.
+------------
+4. Usage & Commands
+Vibe has many features built-in, the primary of which are the calculator commands. You can input these commands in any calculator document or scratchpad, assuming that you saved Vibe in the "MyLib" folder. The syntax is very specific for each command, but it is universal.
+
+  vibe\command()
+
+In the above command, the command used is literally called "command." If you were to input the command "check," you would input the following:
+
+  vibe\check()
+
+As of Vibe 1.6, there are 13 built in commands:
+
+    check: vibe checks you
+    pass: forces a passed vibe check
+    fail: forces a failed vibe check
+    roll: rolls a die as large as specified
+    some: ???
+    eightball: shakes a magic 8 ball
+    mathmagic: ???
+    sine: ???
+    rps: plays a game of rock paper scissors
+    rusmarter: ???
+    whowouldwin: decides who would win in a fight out of 2 people
+    author: displays version and creator
+    clear: clears the screen using blank lines
+
+There are just a couple hidden commands too!
+
+There is still a little more content in Vibe. When you open vibe.tns in "MyLib," you will be directed to the Built-in Vibe Website. This file acts as a mini guide to Vibe, containing help, tips, and links. Within the Vibe files, there is also a changelog, which details every single change made to the program throughout its release history.
+
+Thank you for your interest in Vibe for TI-Nspire CX.

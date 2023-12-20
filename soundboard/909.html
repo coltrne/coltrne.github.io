@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>TR-909 Soundboard</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" 
+      type="image/png" 
+      href="../global/images/icon.png">
+  </head>
+
+  <div style=
+"position: absolute;
+padding: 0;
+margin: 0;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #002000;
+background-image: url(../global/images/tile.png);
+background-attachment: fixed;
+">
+
+  <body>
+  <br>
+  <img src="../global/images/logo.png">
+<br>
+<h2>TR-909 Soundboard</h2>
+<h6>Note: Optimized for PC</h6>
+<br>
+<script>
+  function playAudio(url) {
+  new Audio(url).play();
+}
+</script>
+<button class="drummachine" onmousedown="playAudio('samples/909/bass.mp3')">Bass</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/snare.mp3')">Snare</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/clap.mp3')">Clap</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/rim.mp3')">Rim</button>
+<br>
+<button class="drummachine" onmousedown="playAudio('samples/909/chh.mp3')">CHH</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/ohh.mp3')">OHH</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/crash.mp3')">Crash</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/ride.mp3')">Ride</button>
+<br>
+<button class="drummachine" onmousedown="playAudio('samples/909/lowtom.mp3')">L Tom</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/midtom.mp3')">M Tom</button>
+<button class="drummachine" onmousedown="playAudio('samples/909/hightom.mp3')">H Tom</button>
+<br>
+<br>
+<a href=../index.html>Homepage</a>
+
+
+
+
+  </body>
+</div>
+</html>

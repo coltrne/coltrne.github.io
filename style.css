@@ -1,0 +1,195 @@
+body {
+  font-family: Arial;
+  color: white;
+  background-image: url("global/images/tile.png");
+  /* DEFAULT BACKGROUND COLOR: #252525 */
+  background-color: #252525;
+  background-attachment: fixed;
+  text-align: center;
+}
+.footer {
+  padding: 32px;
+  color: white;
+  position:fixed;
+  bottom:0px;
+  height:30px;
+  font-size:12px;
+  padding-left: 64px;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 256px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #252525;
+  overflow-x: hidden;
+  padding-top: 0px;
+  font-family: monospace;
+}
+
+.sidenav a {
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  font-weight: bold;
+}
+
+.sidenav img {
+  padding: 0px;
+  display: block;
+}
+
+.main {
+  padding-left:256px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #999999;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: rgb(0, 158, 221);
+  border: solid;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.vibe {
+  border-radius: 15%;
+  opacity: 100%;
+  filter: invert(0%);
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.nope {
+  cursor: not-allowed;
+}
+
+.bungee {
+  font-family: Bungee;
+}
+
+.left {
+  text-align: left;
+}
+
+.indent1 {
+  margin-left: 20px;
+}
+
+.indent2 {
+  margin-left: 40px;
+}
+
+.indent3 {
+  margin-left: 60px;
+}
+
+.escape {
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+.drummachine {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+  text-align: center;
+  /* padding: 15px 32px; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px 0px;
+  height: 100px;
+  width: 20%;
+  transition-delay: 0s;
+  -ms-touch-action: manipulation;	/* IE10  */
+	touch-action: manipulation;		/* IE11+ */
+}
+
+
+.poihomepage {
+  position: fixed;
+  bottom: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@font-face {
+  font-family: Bungee;
+  src: url("/global/fonts/Bungee-Regular.otf");
+}
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
